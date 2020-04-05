@@ -1,0 +1,155 @@
+html{
+  scroll-behavior: smooth;
+}
+/***
+COMMON CSS
+***/
+
+*{ margin: 0; padding: 0; box-sizing: border-box; }
+body{font-family: 'Open Sans', sans-serif; color: #333333; font-size: 15px; line-height: 1.5em;}
+
+h1,h2,h3,h4,h5{font-weight: 700; line-height: 1.5em;}
+.content{width: 1170px; margin: 0 auto;}
+
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #97455f;
+  bottom: 40px;
+  right: 50px;
+
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+  border-radius: 50%;
+}
+.gotopbtn:hover{
+	background: #6a3144;
+	 color: white;
+
+}
+
+/***
+HEADER AREA
+**/
+.headerarea{background: #a88c95; overflow: hidden; padding: 17px 0;}
+.header1{overflow: hidden;}
+.header1 .social{ text-align: center; }
+.header1 .social ul{ text-align: center; margin: 0; padding: 0; list-style: none; }
+.header1 .social ul li{display: inline-block;margin-right: 5px;}
+.header1 .social ul li a{color: #6a3144; background: #d2d2d2; width: 34px; height: 34px;display: block;
+text-align: center; padding: 7px; border-radius: 50%;}
+.header1 .social ul li a:hover{color: #fff; background: #6a3144;}
+.header1 .search{text-align: center; }
+.header1 .search form{ width: 295px; margin-left: 40px;}
+.header1 .search input[type="text"]{color: #999999;padding: 8px; font-size: 14px; font-weight: 600; 
+	 border-radius: 5px 0 0 5px; width: 219px; float: left; border: 0;}
+.header1 .search input[type="submit"]{font-size: 14px; font-weight: 700; color: #fff; background: #97455f;
+ border-radius: 0 5px 5px 0; width: 76px; float: right; border: 0;  text-transform: uppercase; padding: 8px;
+  cursor: pointer; transition: 0.3s;}
+.header1 .search input[type="submit"]:hover{color: #fff; background: #6a3144;}
+
+
+/***
+  logo
+
+**/
+.header2 {width: 210px; max-width: 100%; text-align: center; margin: 25px auto; background-color: #ffffff;}
+
+
+/***
+  MAIN MENU
+**/
+
+.mainmenu{ background: #97455f; height: 52px; }
+.mainmenu  ul{list-style: none; margin: 0 auto; padding: 0; text-align: center;}
+.mainmenu  ul li{ display: inline-block; margin: 0 5px; }
+.mainmenu ul li a{ color: #fff; font-size: 14px; font-weight: 700; display: block; 
+text-transform: uppercase; padding: 15px 20px; transition: 0.4s;}
+.mainmenu ul li a:hover{ color: #fff; background: #6a3144; text-decoration: none;}
+
+/***
+    BANNER AREA
+**/
+.carousel-item img{ height: 100vh; }
+
+/**
+   WELCOME AREA
+**/
+
+.welcome_area{ 	overflow: hidden;width: 100%; background: #fff; padding: 60px 0; }
+.welcome_area .inner_area{ 	 }
+.welcome_area .left_area{ width: 46%;	float: left;padding: 0 2%; }
+.welcome_area .left_area h3{ font-weight: 400; font-size: 30px;text-transform: uppercase;	 }
+.welcome_area .left_area p{ font-size: 15px; color: #333333; line-height: 1.5em; }
+.welcome_area .left_area a{ text-transform: uppercase; color: #ffffff; background:#97455f;
+display: inline-block; padding: 10px 20px; font-weight: 300; margin-top: 30px;}
+.welcome_area .left_area a:hover{background: #6a3144; text-decoration: none; }
+
+
+
+.welcome_area .right_area{width: 50%; float: right; 	 }
+
+/***
+    SERVICE AREA
+***/
+
+.service_area{ overflow: hidden;width: 100%; background: #f5f5f5;padding: 50px 0; }
+.service_content{overflow: hidden;}
+.service_content h2{text-transform: capitalize; font-weight: 700;text-align: center;
+font-size: 45px;	color: #6a3144;}
+.service_content p{ text-align: center; line-height: 1em; }
+.main_service{overflow: hidden; width: 100%; margin-top: 20px;}
+.main_service .child_service{ width: 390px; padding: 130px 70px 80px 120px; float: left;
+    position: relative; cursor: pointer;transition: 0.4s;}
+.main_service .child_service h3{ font-size: 100px; font-weight: 700;color: #523827; top: 40px;
+left: 66px; position: absolute; opacity: 0.1;font-family: 'Oswald', sans-serif;}
+.main_service .child_service h4{text-transform: uppercase;color: #523827; font-size: 19px;
+font-weight: 600px;}
+.main_service .child_service h4 a{color: #523827; text-decoration: none;}
+.main_service .child_service p{font-size: 11.5px; line-height: 2em;text-align: left;
+    color: #9b9b9b;letter-spacing: 0.01em;}
+.main_service .child_service:hover{ box-shadow: 10px 10px 10px #ddd; background: #ffff;}
+
+
+/***
+   CONTACT AREA
+
+**/
+.contact_area{ background-image: url('../images/footerimage.jpg'); background-size: cover;
+  overflow: hidden;width: 100%;padding: 50px 0;}
+ .contact_area .contact_form h2{text-align: center; color: #fff; text-transform: capitalize;
+ 	font-family: 'Oswald', sans-serif;font-weight: 400; font-size: 36px;}
+ 	.contact_area .contact_form{ text-align: center; width: 910px; max-width: 100%;overflow: hidden;margin: 0 auto;}
+ 	.contact_area .contact_form form{width: 100%; overflow: hidden;margin-top: 20px;}
+ 	.contact_area .contact_form input{width: 48%; float: left; border: 0;border-radius: 5px; padding: 10px 3%;
+        margin: 0 2% 2% 0;}
+ 	.contact_area .contact_form textarea{border-radius: 5px; margin: 0 1% 2% 0; padding: 15px 3%;
+    width: 98%; min-height: 100px;border: 0;}
+     .contact_area .contact_form input[type='submit']{width: 250px; border-radius: 25px;background: #97455f;
+     	color: #fff; float: none; margin: 0 auto; transition: 0.4s; }
+     .contact_area .contact_form input[type='submit']:hover{color: #fff; background: #6a3144; }
+
+     /***
+         FOOTER   
+    
+     **/
+     .footer_area{ width: 100%; height: 446PX; text-align: center; background: #ffff;}
+     .logo2{text-align: center; margin: 57px auto; width: 373px; max-width: 100%;}
+     .footer_area p{color: #6a3144; font-size: 14px;}
+
+
+/*
+   menubar
+*/
+       .menu_toggle{
+		position: absolute;
+		top: 95px;
+		left:15px;
+		font-size: 30px;
+		color: #333333;
+		display: none;
+	}

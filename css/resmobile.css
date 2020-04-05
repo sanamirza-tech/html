@@ -1,0 +1,27 @@
+@media  only screen and (max-width: 768px){
+
+.header1 .search { display: none;}
+/*.menu_toggle{display: inline-block;}
+	
+.menu_toggle  a:visited a i:active{ color:  #fff; }*/
+.mainmenu{ background: #97455f; height: 52px; }
+.mainmenu ul li{ width: 100%; }
+.header1 .search {display: none;}
+.header1 .search {display: none;}
+.carousel img{height: 280px;}
+.welcome_area {padding: 15px 0;}
+
+.content { width: 100%;}
+.welcome_area .left_area {width: 100%;}
+.welcome_area .left_area p {font-size: 13px;}
+
+.welcome_area .left_area a { margin-bottom: 20px;margin-top: 20px;}
+.welcome_area .right_area { width: 100%;}
+.welcome_area .right_area img{width: 100%;}
+.service_content p{font-size: 12px;}
+.main_service .child_service { width: 400px;}
+.logo2 {  width: 250px; max-width: 100%;}
+.footer_area { width: 100%; height: 298PX;}
+
+.logo2 img{width: 250px;}
+   }
